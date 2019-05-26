@@ -18,27 +18,56 @@
                     <li class="catalog-item"><a href="#" class="catalog-link">Щербеты</a></li>
                     <li class="catalog-item"><a href="#" class="catalog-link">Фруктовый лед</a></li>
                     <li class="catalog-item"><a href="#" class="catalog-link">Мелорин</a></li>
-                </ul></li>
+                </ul>
+            </li>
             <li class="navigation-item"><a href="purchase.html" class="navigation-link">Доставка и оплата</a></li>
             <li class="navigation-item"><a href="contacts.html" class="navigation-link">О Компании</a></li>
         </ul>
     </nav>
-    <a class="search">Поиск</a>
-    <form method="get" action="/">
-        <label for="search" class="visually-hidden">Поиск</label>
-        <input id="search" type="text" placeholder="Что ищем?" name="search">
-    </form>
-    <a class="login">Вход</a>
-    <form class="auth-form" method="post" action="/">
-        <label for="login" class="visually-hidden">Логин</label>
-        <input id="login" type="text" name="login" placeholder="Электронная почта">
-        <label for="password" class="visually-hidden">Пароль</label>
-        <input id="password"  type="password" name="password" placeholder="Пароль">
-        <button type="submit">Войти</button>
-        <a href="#">Забыли пароль?</a>
-        <a href="#">Новая регистрация</a>
-    </form>
-    <a class="cart">Корзина</a>
+    <div class="search">
+        <a class="search-icon">Поиск</a>
+        <form class="search-form" method="get" action="/">
+            <label for="search" class="visually-hidden">Поиск</label>
+            <input id="search" type="text" placeholder="Что ищем?" name="search">
+        </form>
+    </div>
+    <div class="auth">
+        <a class="auth-icon">Вход</a>
+        <form class="auth-form" method="post" action="/">
+            <label for="login" class="visually-hidden">Логин</label>
+            <input id="login" type="text" name="login" placeholder="Электронная почта">
+            <label for="password" class="visually-hidden">Пароль</label>
+            <input id="password" type="password" name="password" placeholder="Пароль">
+            <button type="submit">Войти</button>
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Новая регистрация</a>
+        </form>
+    </div>
+    <div class="cart">
+        <a class="cart-icon">Корзина</a>
+        <div class="cart-container">
+            <table class="cart-table">
+                <tr>
+                    <td><button aria-label="Удалить товар из корзины">Удалить товар из корзины</button></td>
+                    <td><img src="img/contents/1.jpg" alt="Пломбир с апельсиновым джемом" width="33"></td>
+                    <td>Пломбир с апельсиновым джемом</td>
+                    <td>1,5 кг х 200 руб.</td>
+                    <td>300 руб.</td>
+                </tr>
+                <tr>
+                    <td><button aria-label="Удалить товар из корзины">Удалить товар из корзины</button></td>
+                    <td><img src="img/contents/3.jpg" alt="Клубничный пломбир с присыпкой из белого шоколада" width="33"></td>
+                    <td>Клубничный пломбир с присыпкой из белого шоколада</td>
+                    <td>1,5 кг х 200 руб.</td>
+                    <td>450 руб.</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Итого: 750 руб.</td>
+                </tr>
+            </table>
+            <a href="#">Оформить заказ</a>
+        </div>
+    </div>
     <p class="schedule">
         <span>С 10 до 20, ежедневно</span>
         <a href="tel:8124502525">8 812 450-25-25</a>
@@ -88,7 +117,8 @@
         </p>
     </div>
     <div class="footer-copyright">
-        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/svg/logo-htmlacademy.svg" width="108" height="36" alt="Лого htmlacademy"></a>
+        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/svg/logo-htmlacademy.svg" width="108"
+                                                                height="36" alt="Лого htmlacademy"></a>
         <p>Сделано в HTML Academy © 2019</p>
     </div>
 </footer>
