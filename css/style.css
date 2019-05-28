@@ -106,7 +106,7 @@ a {
 .about {
     color: #323232;
     background-color: #f0e6cf;
-    background-image: url("/img/backgrounds/wafer.jpg");
+    background-image: url("../img/backgrounds/wafer.jpg");
 }
 .about h2 {
     font-size: 24px;
@@ -124,7 +124,7 @@ a {
 
     background-color: #ffffff;
     border-radius: 14px;
-    background-image: url("/img/backgrounds/news-1.jpg");
+    background-image: url("../img/backgrounds/news-1.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -148,7 +148,7 @@ a {
 
     color: #5a5a5a;
 
-    background-image: url("/img/backgrounds/subscription.png");
+    background-image: url("../img/backgrounds/subscription.png");
     background-repeat: no-repeat;
 }
 .subscription-wrapper {
