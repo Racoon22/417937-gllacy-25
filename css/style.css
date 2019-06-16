@@ -1645,3 +1645,7 @@ a.for-provider {
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
+
+iframe{
+    border-width: 0;
+}
