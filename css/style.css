@@ -55,7 +55,6 @@ a {
 
 .site-navigation {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     width: 870px;
     margin: 0;
@@ -70,20 +69,19 @@ a {
 }
 
 .site-header {
-    margin-bottom: 27px;
+    margin-bottom: 18px;
 }
 
 .navigation-wrapper {
     display: flex;
-    align-items: center;
     margin-top: 10px;
 }
 
 .user-navigation {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    margin: 0;
+    margin-left: auto;
+    margin-top: 13px;
     padding: 0;
 }
 
@@ -94,13 +92,13 @@ a {
 }
 
 .header-logo-link {
-    margin-right: 24px;
+    margin-right: 10px;
 }
 
 .schedule {
     position: absolute;
-    bottom: -50px;
-    right: 0;
+    bottom: -56px;
+    right: -1px;
 
     align-self: flex-end;
     width: 170px;
@@ -125,7 +123,7 @@ a {
 
 .auth-icon,
 .cart-icon {
-    padding: 8px 15px 8px 45px;
+    padding: 8px 16px 8px 45px;
 
     font-size: 14px;
     line-height: 16px;
@@ -171,6 +169,8 @@ a {
 .navigation-list,
 .catalog-list,
 .social-list {
+    margin-top: 20px;
+
     list-style: none;
 }
 
@@ -252,7 +252,7 @@ a {
 }
 
 .cart-container {
-    width: 540px;
+    width: 500px;
 }
 
 .search-wrapper {
@@ -383,9 +383,8 @@ a {
     border-radius: 50%;
 }
 
-.btn.btn-order {
-    display: block;
-    margin-left: 360px;
+.order-btn-wrapper {
+    text-align: right;
 }
 
 .navigation-item.catalog {
@@ -462,7 +461,7 @@ a {
 .schedule {
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 25px;
 }
 
 .schedule a {
@@ -474,7 +473,8 @@ a {
 .slider {
     position: relative;
 
-    padding-top: 321px;
+    padding-top: 295px;
+    margin-bottom: 40px;
 
     text-align: center;
 }
@@ -496,7 +496,7 @@ a {
 
 .btn {
     display: inline-block;
-    padding: 10px 19px;
+    padding: 10px 23px;
 
     font-size: 18px;
     font-weight: 700;
@@ -562,7 +562,7 @@ a {
 
 .slider-controls {
     position: absolute;
-    bottom: 63px;
+    bottom: 23px;
     left: 0;
     z-index: 20;
 
@@ -601,7 +601,9 @@ a {
 }
 
 .about {
-    padding: 30px 20px 25px 20px;
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 40px;
+
 
     color: #323232;
 
@@ -632,16 +634,14 @@ a {
     position: relative;
 
     padding-left: 55px;
-    padding-top: 16px;
-    width: 490px;
+    padding-top: 22px;
+    width: 485px;
 }
 
 .about-fact::before {
     position: absolute;
-    top: 5px;
+    top: 8px;
     left: 0;
-
-    width: 490px;
 }
 
 .about-fact-1::before {
@@ -660,15 +660,18 @@ a {
     content: url("../img/svg/thermometer.svg");
 }
 
+.news {
+    margin-bottom: 40px;
+}
+
 .index-column {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
 }
 
 .articles {
     box-sizing: border-box;
-    padding: 25px 20px;
+    padding: 20px 20px;
     width: 560px;
     height: 220px;
 
@@ -687,7 +690,7 @@ a {
 }
 
 .articles h2 {
-    margin-top: 10px;
+    margin-top: 5px;
     width: 290px;
 
     font-size: 24px;
@@ -702,14 +705,22 @@ a {
     width: 560px;
     min-height: 230px;
     margin-bottom: 40px;
-    padding: 20px 20px 70px;
+    padding: 15px 20px;
     box-sizing: border-box;
 
     color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
 
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+}
+
+.gift p {
+    margin-top: 15px;
+    margin-bottom: 45px;
 }
 
 .gift-title {
@@ -720,12 +731,8 @@ a {
     line-height: 41px;
 }
 
-.btn-gift {
-    position: absolute;
-
-    bottom: 20px;
-    right: 20px;
-    border: none;
+.gift-btn-wrapper {
+    text-align: right;
 }
 
 .gift-raspberries {
@@ -751,9 +758,9 @@ a {
 .subscription-wrapper {
     height: 100%;
     width: 100%;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 33px;
+    padding-top: 27px;
+    padding-left: 23px;
+    padding-right: 20px;
     box-sizing: border-box;
 
     border-radius: 10px;
@@ -766,7 +773,7 @@ a {
 
 .subscription-form {
     display: flex;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .input,
@@ -814,8 +821,6 @@ a {
     font-weight: 400;
 }
 
-.textarea-input:hover,
-.textarea-input:focus,
 .input:hover,
 .input:focus,
 .auth-input:hover,
@@ -843,11 +848,11 @@ a {
 }
 
 .feedback-form input[type="text"] {
-    width: 270px;
+    width: 260px;
 }
 
 .feedback-form textarea {
-    width: 100%;
+    width: 420px;
 }
 
 .btn-wrapper {
@@ -861,7 +866,6 @@ a {
 .map {
     position: relative;
 
-    margin-top: 40px;
     height: 430px;
 
     background-image: url("../img/backgrounds/map.png");
@@ -875,8 +879,8 @@ a {
 
 .map-contact {
     position: absolute;
-    top: 65px;
-    right: 27px;
+    top: 60px;
+    right: 0;
 
     width: 250px;
     padding: 30px 25px;
@@ -886,22 +890,30 @@ a {
     color: #323232;
 }
 
-.contact-text {
+.contact-address,
+.contact-phone {
     margin: 0 0  23px;
 
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-
 }
 
-.contact-text strong {
+.contact-address {
+    margin: 0 0  18px;
+}
+
+.contact-address strong,
+.contact-phone strong {
     display: block;
 
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
+}
 
+.contact-phone strong {
+    line-height: 30px;
 }
 
 .btn-contact {
@@ -909,7 +921,8 @@ a {
 }
 
 .site-footer {
-    margin-top: 30px;
+    display: flex;
+    padding: 0;
     min-height: 105px;
 }
 
@@ -919,8 +932,8 @@ a {
 
 .footer-wrapper {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    padding-top: 13px;
 }
 
 .navigation-list,
@@ -933,6 +946,7 @@ a {
 .social-list {
     display: flex;
     align-items: center;
+    align-self: center;
     margin: 0;
     padding: 0;
 }
@@ -941,7 +955,7 @@ a {
     display: block;
     width: 32px;
     height: 32px;
-    margin-right: 13px;
+    margin-right: 11px;
 
     border: 3px solid rgba(255, 255, 255, 0.5);
     border-radius: 50%;
@@ -973,34 +987,66 @@ a {
     opacity: 0.9;
 }
 
+.footer-info {
+    margin-left: 228px;
+    margin-top: 26px;
+    display: flex;
+}
+
+.footer-info p {
+    margin: 0;
+    padding: 0;
+}
+.footer-info p:first-child {
+    margin-right: 30px;
+}
+
 .footer-info a {
+    display: block;
+    margin-top: 5px;
+
     color: #fefefe;
-    font-size: 12px;
+
+    font-size: 13px;
     font-weight: 400;
     line-height: 18px;
 }
 
-.for-provider {
+a.for-provider {
     position: relative;
+    font-weight: 700;
 }
 
 .for-provider::before {
     position: absolute;
-    top: 0px;
-    left: -20px;
+    top: 3px;
+    left: -23px;
 
     content: url("../img/svg/heart.svg");
 }
 
+.footer-copyright a:hover,
 .footer-info a:hover {
     color: #ffbc9e;
 }
 
+.footer-copyright a {
+    color: #ffffff;
+}
+
 .footer-copyright {
+    margin-left: 230px;
+    margin-top: 20px;
+
     color: #fefefe;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
+}
+
+.footer-copyright p {
+    margin: 0;
+    padding: 0;
 }
 
 .breadcrumbs {
@@ -1032,6 +1078,7 @@ a {
 
 .breadcrumbs a {
     color: #ffffff;
+    font-size: 14px;
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -1041,7 +1088,7 @@ a {
     flex-wrap: wrap;
     justify-content: flex-start;
 
-    margin: 0 0 40px 0;
+    margin: 0 0 42px;
     padding: 0;
 
     list-style: none;
@@ -1059,8 +1106,12 @@ a {
     position: relative;
 
     width: 265px;
-    margin-right: 26px;
-    margin-bottom: 40px;
+    margin-right: 28px;
+    margin-bottom: 25px;
+}
+
+.products-item--hit {
+    margin-bottom: 22px
 }
 
 .products-item:nth-child(4n) {
@@ -1081,7 +1132,7 @@ a {
 
 .price-wrapper {
     margin-top: -65px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .products-price {
@@ -1139,23 +1190,28 @@ a {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.feedback-overlay--show {
+    display: block;
+}
+
 .modal-feedback {
     position: absolute;
     z-index: 20;
-    top: 120px;
+    top: 340px;
     left: 50%;
 
+    box-sizing: border-box;
     width: 480px;
-    padding: 20px 25px;
-    margin-left: -290px;
+    padding: 15px 25px 25px;
+    margin-left: -238px;
 
     background-color: #f8f7f4;
     border-radius: 10px;
 }
 
 .feedback-title {
-    margin: 0;
-    padding: 0 0 25px 0;
+    margin: 0 0 18px;
+    padding: 0 0 0 0;
 
     color: #323232;
     font-size: 24px;
@@ -1184,8 +1240,8 @@ a {
     content: "";
 
     position: absolute;
-    top: 7px;
-    left: -1px;
+    top: 5px;
+    left: -5px;
 
     width: 19px;
     height: 3px;
@@ -1201,7 +1257,27 @@ a {
     transform: rotate(-45deg);
 }
 
+.feedback-form input[type="text"] {
+    height: 40px;
+    padding-left: 3px;
+}
+
+
+.feedback-form textarea {
+    padding-top: 8px;
+    padding-left: 4px;
+}
+
+.feedback-form textarea:hover {
+    padding-top: 6px;
+    padding-left: 2px;
+    border: 2px solid rgba(154, 154, 154, 0.52);
+}
+
 .title {
+    margin-top: 0;
+    margin-bottom: 25px;
+
     font-size: 35px;
     font-weight: 700;
     line-height: 41px;
@@ -1210,7 +1286,7 @@ a {
 .filter-container {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 23px;
 }
 
 .filter-wrapper {
@@ -1220,12 +1296,12 @@ a {
 }
 
 .filter-wrapper {
-    margin: 0 15px 15px 0;
+    margin: 0 14px 15px 0;
     padding: 0;
 }
 
 .filter-wrapper p {
-    margin: 0 0 5px;
+    margin: 0 0 5px 10px;
     padding: 0;
     font-size: 14px;
     font-weight: 500;
@@ -1335,7 +1411,7 @@ a {
 }
 
 .radio-container {
-    padding: 10px 19px 10px 15px;
+    padding: 10px 0 10px 15px;
 
     font-size: 16px;
     font-weight: 500;
@@ -1348,17 +1424,17 @@ a {
 .radio-label {
     position: relative;
 
-    padding-left: 35px;
-    margin-right: 10px;
+    padding-left: 25px;
+    margin-right: 20px;
 }
 
 .radio-fake {
     position: absolute;
-    top: -4px;
-    left: -4px;
+    top: 0;
+    left: -7px;
 
-    width: 18px;
-    height: 18px;
+    width: 14px;
+    height: 14px;
 
     border-radius: 50%;
     border: 4px solid rgba(255, 255, 255, 0.8);
@@ -1378,12 +1454,12 @@ a {
 
 .radio-fake:before {
     position: absolute;
-    top: 4px;
-    left: 4px;
+    top: 3px;
+    left: 3px;
 
     display: none;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
 
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 50%;
@@ -1400,14 +1476,14 @@ a {
 }
 
 .checkbox-container {
-    padding: 10px 19px 10px 15px;
+    padding: 11px 19px 10px 17px;
 
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
 
     background-color: rgba(248, 247, 244, 0.2);
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 
@@ -1469,7 +1545,7 @@ a {
     align-self: center;
     height: 37px;
     margin-top: 5px;
-    padding: 7px 37px;
+    padding: 7px 30px;
 
     color: #fff;
 
@@ -1498,7 +1574,7 @@ a {
 
 .pagination-list {
     padding: 0;
-    margin: 0;
+    margin: 0 0 30px;
 
     list-style: none;
 }
@@ -1509,8 +1585,8 @@ a {
 
 .pagination-link {
     display: inline-block;
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
 
     font-size: 16px;
     font-weight: 500;
